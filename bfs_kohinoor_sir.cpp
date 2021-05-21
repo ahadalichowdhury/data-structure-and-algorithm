@@ -181,7 +181,7 @@ void creategraph()
         {
             break;
         }
-        if(sourse>=destin|| destin>=vertex||sourse<0 || destin<0 )
+        if(destin>=vertex||sourse<0 || destin<0 )
         {
             cout << "Invalid index\n";
             i--;
